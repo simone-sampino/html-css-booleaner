@@ -1,5 +1,4 @@
 /* Reset */
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,6 @@
 }
 
 /* Utils */
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -21,8 +19,11 @@
     font-size: 0.7rem;
 }
 
-/* Generics */
+.width-50 {
+    width: 50%;
+}
 
+/* Generics */
 h1 {
     font-size: 2.8rem;
     margin-top: 15px;
@@ -37,8 +38,17 @@ address {
     font-style: normal;
 }
 
-/* Header */
+ul {
+    list-style-position: inside;
+    margin: 30px 0;
+}
 
+table {
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+/* Header */
 header {
     background-color: #4EA0FF;
     height: 116px;
@@ -52,7 +62,21 @@ header {
 }
 
 /* Main */
-
 .pictures {
-    margin-top: 15px;
+    margin: 20px 0;
+}
+
+/* Table */
+th {
+    text-align: left;
+    background-color: #20a9e5;
+    color: #fff;
+}
+
+tr {
+    background-color: #b1e5f2;
+}
+
+td.even {
+    background-color: #fff;
 }
