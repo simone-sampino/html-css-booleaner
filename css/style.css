@@ -13,16 +13,46 @@
     margin: 0 auto;
 }
 
+.text-grey {
+    color: #808080;
+}
+
+.text-small {
+    font-size: 0.7rem;
+}
+
+/* Generics */
+
+h1 {
+    font-size: 2.8rem;
+    margin-top: 15px;
+}
+
+a {
+    color: #3cb4e7;
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
 /* Header */
 
 header {
     background-color: #4EA0FF;
-    height: 103px;
+    height: 116px;
     background-image: url(../img/pattern.png);
-    background-size: 26%;
+    background-size: 30%;
 }
 
 #logo {
     height: 52px;
-    margin: 42px 133px;
+    margin: 50px 0;
+}
+
+/* Main */
+
+.pictures {
+    margin-top: 15px;
 }
