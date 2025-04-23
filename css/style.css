@@ -1,3 +1,28 @@
-body {
-    background-color: black;
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utils */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background-color: #4EA0FF;
+    height: 103px;
+    background-image: url(../img/pattern.png);
+    background-size: 26%;
+}
+
+#logo {
+    height: 52px;
+    margin: 42px 133px;
 }
